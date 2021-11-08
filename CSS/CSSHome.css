@@ -1,4 +1,4 @@
-@charset "utf-8";
+
 body{
 	background:url(../Images/bg_body.jpg) no-repeat;
 	background-size:100%,100%;
@@ -237,20 +237,19 @@ a.listmenu2:hover
 
 .footer{
 	background:#0e522d;
-	width:1105px;;
-	height:20px;
+	width:1105px;
 	margin:0px;
 	padding:10px;
-	text-align:center;
+	padding-top: 40px;
+	/* text-align:center; */
 	float: left;
 	color:#FFF;
 }
 
 .footer a{
-	padding: 10px;
+	padding-right: 10px;
 }
 .footer a:hover{
-	padding: 10px;
 	color: rgb(0, 255, 55);
 }
 
@@ -260,6 +259,7 @@ a.listmenu2:hover
 
 .footer-phai{
 	float: right;
+	/* text-align: center; */
 }
 
 .container-hot
@@ -304,6 +304,7 @@ a.listmenu2:hover
 	-moz-border-radius-topright:15px;
     -webkit-border-top-right-radius:15px;
 	}
+
 .vungsanpham0
 {
 	width:1124px;
@@ -324,9 +325,11 @@ a.listmenu2:hover
 	text-align:center;
 	background:url(../Images/arabica.jpg);
 	}
+
 .vungsanpham1:hover{
 	opacity: 0.8;
 	}
+
 .chitietsanpham
 {
 	opacity: 0;
@@ -337,6 +340,7 @@ a.listmenu2:hover
 	text-align:center;
 	color:#FFF;
 	}
+
 .chitietsanpham:hover{
 	opacity: 1;
 	background:#630;
@@ -344,6 +348,7 @@ a.listmenu2:hover
 	height:40px;
 	margin-top:80px;
 	}
+
 .vunghotrophai{
 	width:1124px;;
 	height:25px;
@@ -352,6 +357,7 @@ a.listmenu2:hover
 	padding:0px;
 	color:#06F;
 	}
+
 .vunghotrotrai{
 	width:1124px;;
 	height:25px;
@@ -371,16 +377,8 @@ a.listmenu2:hover
 		margin-right:5px;
 		padding:0px;
 		}
-	.hinhanh
-	{
-		width:280px;
-		height:250px;
-		float:left;
-		margin-left:3px;
-		margin-right:3px;
-		padding:0px;
-		}
-	.noidung1
+
+.noidung1
 	{
 		width:280px;
 		height:250px;
@@ -396,8 +394,10 @@ a.listmenu2:hover
 
 .tuyendung-phai{
 	float: right;
+	padding-right: 10px;
 }
-	.noidung2
+
+.noidung2
 	{
 		width:550px;
 		height:200px;
@@ -405,22 +405,4 @@ a.listmenu2:hover
 		margin-top:15px;
 		padding-right: 15px;
 		size:130%;
-		}
-	.tuyendungnhanvien
-	{
-		width:1095px;
-		height:200px;
-		padding:0px;
-		margin-left:15px;
-		float:left;
-		}
-	.form
-	{
-		width:1095px;
-		height:500px;
-		padding-top:50px;
-		padding-left:250px;
-		margin-top:15px;
-		margin-left:15px;
-		float:left;
 		}
