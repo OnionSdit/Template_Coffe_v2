@@ -406,3 +406,36 @@ a.listmenu2:hover
 		padding-right: 15px;
 		size:130%;
 		}
+
+.line{
+	line-height: 30px;
+	font-size: 20px;
+	color: black;
+
+}
+
+.line i{
+	padding-right: 10px;
+	font-size: 15px;
+}
+
+.lienhe-trai img{
+	height: 180px;
+    width: 165px;
+	padding-bottom: 30px;
+}
+
+.lienhe-trai{
+	float: left;
+	width: 35%;
+}
+
+.lienhe-phai{
+	float: right;
+	width: 65%;
+}
+
+.info{
+	padding-bottom: 30px ;
+	padding-top: 20px;
+}
